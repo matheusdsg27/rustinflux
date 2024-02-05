@@ -1,3 +1,5 @@
+//Codigo pra ler dados do influxDB usando Rust
+
 use chrono::{DateTime, FixedOffset};
 use influxdb2::{Client, models::Query, FromDataPoint};
 use std::time::Duration;
