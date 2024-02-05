@@ -11,3 +11,4 @@ tokio = { version = "1", features = ["full"] }
 chrono = "0.4" # Ajuste para a versão mais recente
 futures = "0.3" # Ajuste para a versão mais recente
 serde = { version = "1", features = ["derive"] } # Para suporte a deserialização
+chrono-tz = "0.5"
