@@ -1,0 +1,13 @@
+[package]
+name = "rustinflux"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+influxdb2 = "0.3"
+influxdb2-structmap = "0.2"
+num-traits = "0.2"
+tokio = { version = "1", features = ["full"] }
+chrono = "0.4" # Ajuste para a versão mais recente
+futures = "0.3" # Ajuste para a versão mais recente
+serde = { version = "1", features = ["derive"] } # Para suporte a deserialização
