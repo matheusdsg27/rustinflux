@@ -36,7 +36,7 @@ fn convert_to_brt(datetime: &DateTime<FixedOffset>) -> String {
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let host = "http://192.168.2.173:8086".to_string();
     let org = "datatrust".to_string();
-    let token = "I4znJy_IyWbGWLf0usLpODngQA6ft1k9j5BRIC8aHvF9JCOfmq55T5HMNCimutq6x_XlO19Vl6IKvb_szqSIQA==".to_string();
+    let token = "your_token".to_string();
     let client = Client::new(host, org, token);
 
     let mut last_data: Option<Vec<SensorData>> = None;
